@@ -1,0 +1,23 @@
+.btn {
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  border: .125rem solid var(--color-secundary);
+  border-radius: 5rem;
+  color: var(--color-primary);   
+  background: unset;
+  font-size: 1.9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+}
+
+.btn:hover, .btn:active, .btn:focus, .btn--institutional {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secundary);
+}
+
+.btn--institutional:hover {
+  color: var(--color-quaternary);
+  background: unset;
+}
