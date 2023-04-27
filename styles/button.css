@@ -21,3 +21,9 @@
   color: var(--color-quaternary);
   background: unset;
 }
+
+.btn--quote {
+  color: var(--color-quaternary);
+  border-color: var(--color-quaternary);
+  background: unset;  
+}
