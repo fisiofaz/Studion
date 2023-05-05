@@ -10,3 +10,13 @@
   font-size: .875rem;
   font-weight: 300;
 }
+
+.footer .logo-studion {
+  justify-self: start;
+  margin: 0;
+  padding: 5.25rem 0 3.75rem 0;
+}
+
+.logo-studion__subtitle {
+  display: block;
+}
