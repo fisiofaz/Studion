@@ -20,3 +20,8 @@
 .logo-studion__subtitle {
   display: block;
 }
+
+.logo-studion a {
+  text-decoration: none;
+  color: var(--color-secundary);
+}

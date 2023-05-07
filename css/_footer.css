@@ -59,7 +59,29 @@
   background: var(--color-quaternary);
   color: var(--color-secundary);
 }
+.footer__social {
+  justify-self: end;
+  
+}
 
+.footer__social a, .footer__social a:visited, .footer__social:active {
+  color: var(--color-secundary);
+  margin-left: 0.2rem;
+}
 
+.footer__social a .fa-twitter, .footer__social a:visited .fa-twitter, .footer__social:active .fa-twitter {
+  color: var(--color-terceary);
+}
 
+.footer hr {
+  border-color: #fff4;
+  margin: 0;
+}
 
+.footer p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .875rem;
+  font-weight: 300;
+  margin: 2.5rem 0;
+}

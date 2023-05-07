@@ -1,10 +1,9 @@
 .navbar {
-  position: fixed;
+  position: absolute;
   z-index: 1; 
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--color-terceary);
   color: var(--color-secundary);
 }
 
@@ -22,6 +21,12 @@
   justify-self: end;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
 .navbar__links li {
   margin-right: 3rem;
   font-size: .875rem;
@@ -35,5 +40,9 @@
 }
 
 .navbar__links a:hover {
+  color: var(--color-primary);
+}
+
+.navbar__links a:active {
   color: var(--color-primary);
 }

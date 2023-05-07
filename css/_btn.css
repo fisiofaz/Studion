@@ -11,16 +11,20 @@
   transition: 0.5s all ease;
 }
 
-.btn:hover, .btn:active, .btn:focus, .btn--institutional {
+.btn:hover, .btn:active, .btn:focus, .btn--institutional, .btn--contact {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: var(--color-secundary);
 }
 
-.btn--institutional:hover {
+.btn--institutional:hover, .btn--contact:hover {
   color: var(--color-quaternary);
   background: unset;
 }
+
+  .btn--contact:hover {
+    color: var(--color-secundary);
+  }
 
 .btn--quote {
   color: var(--color-quaternary);
