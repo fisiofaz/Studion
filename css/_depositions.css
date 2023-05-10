@@ -1,0 +1,80 @@
+.deposition {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+}
+
+
+.deposition__nome, .deposition_relact, .deposition__image {   
+  margin: 0;
+}
+   
+.deposition__image__container {
+  display: block;
+  padding: 4.625rem 37.125rem 0;
+}
+.deposition__nome h3 {  
+  display: block;
+  margin: 0; 
+  padding: 2rem 0 0;
+  font-size: 3.125rem;
+  letter-spacing: 0.125rem;
+  color: var(--color-terceary);
+  font-weight: 700;
+  text-align:  center;
+}
+
+.deposition_relact {
+  padding: 2rem 0 4rem;
+}
+
+.deposition__nome h6 {
+  display: flex;
+  position: relative;
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: .1875rem;
+  color: var(--color-terceary);
+  font-weight: 400;
+  left: 46.625rem;
+
+}
+
+.deposition__nome span { 
+  display: flex;
+  padding: 2rem 0;
+  color: var(--color-terceary);
+  justify-content: center; 
+}
+
+.deposition_relact {
+  padding: 2rem 0 4rem;
+}
+
+.deposition_relact--copy p {
+  display: flex;  
+  position: relative;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: var(--color-terceary);
+  font-weight: 400;
+  text-align: center;
+  left: 20.625rem;
+  max-width: 66ch;
+}
+
+.deposition_relact--copy span {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 2rem 0 0;
+  letter-spacing: 1rem;
+  color: var(--color-secundary);
+}
+
+.deposition_relact--copy span i:nth-child(2) {
+  color: var(--color-terceary);
+}
+
+
+
