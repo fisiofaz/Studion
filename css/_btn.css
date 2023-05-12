@@ -11,23 +11,59 @@
   transition: 0.5s all ease;
 }
 
-.btn:hover, .btn:active, .btn:focus, .btn--institutional, .btn--contact {
+.btn:hover, .btn:active, .btn:focus, .btn--institutional, .btn--contact, .btn--events {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: var(--color-secundary);
 }
 
-.btn--institutional:hover, .btn--contact:hover {
+.btn--institutional:hover, .btn--contact:hover, .btn--events:hover {
   color: var(--color-quaternary);
   background: unset;
 }
 
-  .btn--contact:hover {
+.btn--contact:hover {
     color: var(--color-secundary);
-  }
+}
+
+.btn--events:hover {
+  border: .125rem solid var(--color-terceary);
+  color: var(--color-primary);
+}
 
 .btn--quote {
   color: var(--color-quaternary);
   border-color: var(--color-quaternary);
   background: unset;  
+}
+
+.btn--events {
+  width: 13.07rem;
+  height: 3.07rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: var(--color-primary);
+  color: var(--color-secundary);
+  font-weight: 700;
+  text-align: center;
+  border: .125rem solid var(--color-secundary);
+  border-radius: 5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+}
+
+.btn--event {
+  width: 13.07rem;
+  height: 3.07rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: #f5f5f5;
+  color: var(--color-primary);
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
 }

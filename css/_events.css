@@ -1,0 +1,77 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  padding: 4.875rem 0 0 3.75rem;
+  background-color: var(--color-secundary);
+}
+.events__block--uno, .events__block--duo {
+  display: flex;
+}
+
+.events__block--uno img, .events__block--duo img {
+  width: 11.5625rem;
+  height: 11.5625rem;  
+}
+
+.events__block-img  {
+  display: flex;
+  padding: 0 3.375rem 5.3125rem 2.1rem ;  
+}
+
+ .events__block--uno-copy h3 {
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  line-height: 1rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.events__block--uno-copy h5 {
+  font-size: 1rem;
+  letter-spacing: .1875rem;
+  line-height: 1rem;
+  color: var(--color-terceary);
+  font-weight: 700;
+}
+
+.events__block--uno-copy p {
+font-size: 1rem;
+line-height: 1.6875rem;
+color: var(--color-quaternary);
+font-weight: 400;
+font-family: "Roboto";
+}
+
+.events__block--uno-copy i, .events__block--p i {
+  color: var(--color-primary);
+}
+
+.events__block--btn {
+  display: flex;
+  padding: 6.5rem 6.5rem 0 2rem;
+}
+
+.events__block--duo {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 2rem 2rem 3.5rem 0;
+}
+
+.events__block--duo-meio {
+  display: flex; 
+  margin-left: 2rem;
+}
+
+.events__block--p {  
+  margin-left: 18.14rem;
+}
+
+.events__block--p span {  
+ float: ;
+}
+
+.events__block--end {
+  display: flex;
+  padding: 2.75rem 0 6.625rem 0;
+}
