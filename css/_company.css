@@ -1,0 +1,64 @@
+.company {
+  display: flex;
+  width: 100%;
+  height: 45.5625rem;
+}
+
+.company__sobre {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 8.5rem;
+  padding: 7rem 0 10rem 10rem;
+}
+
+.company__sobre h2 {
+  font-size: 1.57rem;
+  line-height: 2rem;
+  color: var(--color-quaternary);
+  font-weight: 700;
+}
+
+.company__sobre p {
+  font-size: 1rem;
+  line-height: 27px;
+  color: var(--color-quaternary);
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.company__photo {
+display: flex;
+justify-content:  center;
+height: 44.9375rem;
+width: 36.375rem;
+padding: 2rem 12rem 0 0;
+margin: 0;
+}
+
+.company__work {
+display: flex;
+flex-direction: column;
+background-color: var(--color-primary);
+margin: 0;
+}
+
+.company__work h2 {
+  font-size: 2rem;
+  line-height: 1.6rem;
+  color: var(--color-quaternary);
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 4rem ;
+}
+
+.company__work img {
+  padding: 0 0 5.5rem 0;
+  height: 30rem;
+}
+
+.company__video {
+  display: flex;
+  padding: 5.5rem 5.5rem ;
+}
