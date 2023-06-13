@@ -1,0 +1,31 @@
+.gallery {
+  padding: 9.8125rem 6rem 15.3125rem 6rem;
+  background-color: var(--color-terceary);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.img1 {
+  display: grid;
+  grid-template-rows: 182px 259px 255px;
+  gap: 1rem; 
+}
+
+.img2 {
+  display: grid;
+  grid-template-rows: 345px 251px;
+  gap: 2rem;
+}
+
+.img3 {
+  display: grid;
+  grid-template-rows: 270px 174px 257px;
+  gap: 2rem;
+}
+
+.img4 {
+  display: grid;
+  grid-template-rows: 185px 435px;
+  gap: 2rem;
+}
+
