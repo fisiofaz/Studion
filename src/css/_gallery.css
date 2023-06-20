@@ -19,7 +19,7 @@
 
 .img3 {
   display: grid;
-  grid-template-rows: 270px 174px 257px;
+  grid-template-rows: 270px 174px 249px;
   gap: 2rem;
 }
 

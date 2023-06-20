@@ -1,4 +1,4 @@
-#slider { 
+.slider { 
   background-color: var(--color-terceary);
   color: var(--color-secundary);
 }
