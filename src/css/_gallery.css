@@ -7,25 +7,25 @@
 }
 .img1 {
   display: grid;
-  grid-template-rows: 182px 259px 255px;
+  grid-template-rows: 11.38rem 16.19rem 15.94rem;
   gap: 1rem; 
 }
 
 .img2 {
   display: grid;
-  grid-template-rows: 345px 251px;
+  grid-template-rows: 21.57rem 15.69rem;
   gap: 2rem;
 }
 
 .img3 {
   display: grid;
-  grid-template-rows: 270px 174px 249px;
+  grid-template-rows: 17rem 10.87rem 15.57rem;
   gap: 2rem;
 }
 
 .img4 {
   display: grid;
-  grid-template-rows: 185px 435px;
+  grid-template-rows: 11.57rem 27.19rem;
   gap: 2rem;
 }
 
